@@ -1,0 +1,68 @@
+/* 폰트 */
+@import url('https://fonts.googleapis.com/css?family=Montserrat:100,200,300,400,500,600,700,800&display=swap');
+
+*{
+    font-family: Montserrat;   /*폰트*/
+}
+
+.mainbox {
+    width: 610px;
+    padding: 30px;  /*영역 내*/
+    margin: 30px;   /*영역 밖*/
+    margin-right: auto;     /*가운데 정렬*/
+    margin-left: auto;
+    border: 1px solid #ebebeb;     /*사각형: 두깨 선 종류 색상*/
+    box-shadow: 0 1px 20px 0 rgba(0,0,0,0.1);       /*그림자: x y 흐릿 퍼짐 _ 색상(투명도)*/
+}
+/*텍스트의 위치는 가운데*/
+.title-box{
+    text-align: right;
+}
+
+section{
+    margin-bottom:24px;
+}
+/*float을 써서 정렬시 겹치는 경우가 생기는데 이를 일종의 가두리로 방지*/
+.float-wrap{
+    overflow: hidden;
+}
+/*float은 정렬-> 위치만 정렬시 줄이 나뉘기 때문에 사용*/
+.title-text{
+    font-size:11px;
+    font-weight: bold;
+    color: #282828;
+    float: left;
+}
+
+.year-text{
+    font-size:11px;
+    font-weight: bold;
+    color: #282828;
+    float: right;
+}
+
+.desc-text {
+    font-size: 9px;
+}
+
+.desc-subtext {
+    font-size: 9px;
+    color:#282828;
+    padding-left:16px;
+}
+/*가운데 정렬 배경 색 영역 안쪽 크기 색*/
+footer{
+        text-align: center;
+        background-color: #1e1e1e;
+        padding: 20px;
+        font-size: 12px;
+        color: #919191;
+}
+.sns-wrap{
+    text-align: right;
+}
+
+.sns-img {
+    width:15px;
+    height:15px;
+}
